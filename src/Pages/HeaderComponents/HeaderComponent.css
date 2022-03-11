@@ -1,0 +1,132 @@
+#spotify-headerBlock{
+    background-color: black;
+    height: 80px;
+}
+#spotify-headerBlock>nav{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.spotifyLogo svg{
+    width: 135px;
+    height: 100%;
+    fill: white;
+    margin-left: -109px;
+}
+
+.spotifyLogo{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+.spotifyMenu{
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.spotifyMenu nav .ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.spotifyMenu nav ul li a{
+    padding: 28px 17px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.spotifyMenu nav ul li a:nth-child(1),
+.spotifyMenu nav ul li a:nth-child(2),
+.spotifyMenu nav ul li a:nth-child(3){
+    font-weight: bold;
+}
+.bar {
+    height: 18px;
+    display: inline-block;
+    width: 1px;
+    background: white;
+    padding: 0px;
+    margin: 32px 20px;
+    color: white;
+}
+.spotifyMenu nav ul li a:hover{
+    color: rgb(29, 216, 95)
+}
+
+.profile_img{
+    display:flex;
+    align-items: center;
+    font-size: 13px;
+    background:rgb(37, 36, 36);
+    padding: 4px 12px;
+    border-radius: 7px;
+
+}
+.profile_img img{
+      width: 30px;
+    margin: 0px 11px 1px 0px;
+    height: 30px;
+    border-radius: 20px;
+}
+.right{
+    list-style: none;
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    position: absolute;
+    right:20px;
+    top: 65px;
+    border-radius: 3px;
+    display: block;
+
+}
+.menu1{
+    color: white;
+    padding: 2px;
+    cursor: initial;
+}
+.menu2{
+    color: white;
+    padding: 10px;
+    cursor: initial;
+}
+.menu3{
+    color: white;
+    padding: 10px;
+    cursor: initial;
+}
+.menu4{
+    color: white;
+    padding: 10px;
+    cursor: initial;
+}
+.menu5{
+    color: white;
+    padding: 10px;
+    cursor: initial;
+}
+.menu6{
+    color: white;
+    padding: 10px;
+    cursor: initial;
+}
+.spotifyMenu .dropdown li a{
+    background: transparent;
+    border:0;
+    border-radius: 2px;
+    color:white;
+    cursor:default;
+    text-decoration: none;
+    padding:2px;
+    display:block;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.spotifyMenu .dropdown li a:hover{
+    background-color: rgb(48, 46, 46);
+    color:blanchedalmond;
+    text-decoration: none;
+    /* width: 10px; */
+}

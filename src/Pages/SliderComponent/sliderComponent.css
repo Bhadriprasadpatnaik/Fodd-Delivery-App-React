@@ -1,0 +1,178 @@
+#slider-block {
+  background: rgb(150, 240, 182);
+}
+
+#slider-block article {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 630px;
+}
+
+#slider-block article .sliderLeft {
+  flex-basis: 60%;
+}
+
+#slider-block article .sliderRight {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderLeft {
+  color: #202f72;
+  margin: 80px 0;
+}
+
+.sliderLeft h4 {
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+
+.sliderLeft h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+
+p.enjoy {
+  font-size: 20px;
+  font-weight: 100;
+  padding-bottom: 50px;
+  letter-spacing: 1.3px;
+}
+
+.sliderLeft button {
+  padding: 17px 48px;
+  border-radius: 500px;
+  border: none;
+  background: #202f72;
+  color: rgb(150, 240, 182);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.sliderRight figure {
+  background: url("./sliderImg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 100%;
+  background-position: center center;
+}
+
+.copyWrite {
+  font-size: 12px;
+}
+
+/* Section : Wrapped  */
+#wrapper-Block {
+  background-color: #f46ebe;
+  background-image: url("https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -408px right -1092px;
+}
+#wrapper-Block article {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 630px;
+}
+
+#wrapper-Block article .wrapperLeft {
+  flex-basis: 60%;
+}
+
+#wrapper-Block article .wrapperRight {
+  flex-basis: 40%;
+}
+
+.wrapperLeft h4 {
+  margin-top: 105px;
+  padding-bottom: 35px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #202f72;
+}
+
+.heading {
+  font-size: 60px;
+  color: #202f72;
+  font-weight: bolder;
+  padding-bottom: 35px;
+}
+
+.wrapperLeft p {
+  margin-top: -10px;
+  text-align: start;
+  max-width: 512px;
+  font-size: 22px;
+  color: #202f72;
+  line-height: 35px;
+}
+
+.image-Block a .appStore {
+  height: 61px;
+  width: 119px;
+}
+
+.play {
+  height: 59px;
+  width: 154px;
+  margin-left: 16px;
+}
+
+/* Slider 3 */
+#sliderblock3 {
+  background-color: rgb(41, 65, 171);
+  background-image: url("https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg");
+  padding: 90px 0px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  min-height: 580px;
+}
+#sliderblock3 article {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  min-height: 330px;
+}
+
+.slider3left h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 54px;
+  color: #1ed760;
+  margin-top: 54px;
+}
+
+.slider3left p {
+  padding-bottom: 54px;
+  font-size: 22px;
+  color: #1ed760;
+  word-spacing: 1px;
+  line-height: 20px;
+}
+
+.slider3left button {
+  padding: 17px 48px;
+  border-radius: 500px;
+  border: none;
+  background: #1ed760;
+  color: #2941ab;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}

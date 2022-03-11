@@ -1,0 +1,145 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ /* .audioBlock{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    
+    background-color: black;
+    color: #fff;
+
+
+}
+ .form-group label{
+    display: block;
+    color: #fff;
+    
+ 
+}
+.form-group input{
+    width: 60%;
+    height: 25px;
+    background-color: black;
+}   */ 
+#AudioSection article{
+    height: auto;
+    margin: 10px auto;
+    width:80%;
+}
+#AudioSection article form{
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#AudioSection article form div.audio_details,#AudioSecion article form div.btn-block{
+    flex-basis: 100%;
+    margin: 10px 0;
+    display: block;
+    padding: 30px 0;
+}
+#AudioSection article form div input,
+#AudioSection article form select,
+#AudioSection article form div textarea{
+    width:100%;
+    background-color: transparent;
+    border: 1px solid #333;
+    padding: 10px;
+    color:#757575;
+}
+#AudioSection label{
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    padding:10px 0
+}
+#AudioSection h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid #99999940;
+}
+/* music */
+#musicHome article{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#musicHome article>div.col-3{
+    flex-basis: 24%;
+    margin: 5px;
+    border: 1px solid black;
+}
+#musicHome article>div.col-3 figure{
+    width: 100%;
+}
+#musicHome article>div.col-3 figure img{
+    width: 100%;
+    height: 200px;
+}
+.title{
+color: white;
+}
+/* audio player */
+.audioPlayer{
+    background: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+.audioPlayer img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    position: absolute;
+    top: -100px;
+        margin-right: -650px;
+        animation: rotation 10s infinite linear;
+}
+ /* @keyframes rotation {
+            from{
+                transform:rotate(0deg);
+            }
+            to{
+                transform:rotate(359deg);
+            }
+        } */
+._contentBlock audio{
+    width: 97%;
+    margin: 0 auto;
+    left: 24px;
+    position: relative;
+    filter: invert(1);
+    border: 2px solid #99999975;
+    border-radius: 5px;
+    padding: 10px;
+}
+._contentBlock header{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 8px 24px;
+    text-transform: capitalize;
+}
+._contentBlock header h2{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
+._contentBlock header p{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
+

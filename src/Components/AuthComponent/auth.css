@@ -1,0 +1,293 @@
+#authBlock article{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 30px;
+    flex-direction: column;
+    /* background-color: white; */
+}
+#authBlock article svg{
+    fill: black;
+    width: 150px;
+
+}
+#pass{
+    color: black;
+}
+#continue{
+    font-size: 15px;
+}
+.authContent h1{
+        font-size: 27px;
+    font-weight: bold;
+    padding: 20px;
+}
+.authContent{
+    text-align: center;
+    padding-top: 10px;
+}
+.authContent button{
+    background: #3973c9;
+    padding: 14px 32px;
+    border-radius: 500px;
+    color: rgb(10, 10, 10);
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none;
+}
+/* login form */
+.line{
+    border-bottom: 1px solid rgba(192, 190, 190, 0.767);
+    width: 100%;
+    padding-bottom: 10px;
+}
+.authContent1{
+    text-align: center;
+    padding-top: 10px;
+    /* border-top: 1px solid black; */
+    /* width: 100%; */
+}
+.authContent1 button{
+   
+    padding: 10px; 
+    border-radius: 500px;
+    display: block;
+}
+.facebook{
+    margin: 20px;
+    width: 450px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bolder;
+     background: #3973c9;
+}
+.apple{
+    margin: 20px;
+    width: 450px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+     background: black;
+     font-weight: bolder;
+}
+.google{
+    margin: 20px;
+    width: 450px;
+    height: 50px;
+    border: 2px solid rgb(100, 99, 99);
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bolder;
+     background: rgb(255, 253, 253);
+}
+.number {
+    margin: 20px;
+    width: 450px;
+    height: 50px;
+    border: 2px solid rgb(100, 99, 99);
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bolder;
+     background: rgb(255, 253, 253);
+}
+.authContent1 a{
+    color: rgb(99, 97, 97);
+     border: 2px solid rgb(100, 99, 99);
+     border-radius: 20px;
+     padding: 10px;
+    width: 550px;
+    height: 50px;
+     font-size: 15px;
+     padding-left: 106px;
+     padding-right: 95px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bolder;
+     background: rgb(255, 253, 253);
+}
+/* login or block */
+.orBlock1{
+   border-bottom: 1px solid #ccc;
+   padding: 10px;
+   width: 90%;
+   margin: 12px auto;
+   position: relative;
+}
+.orBlock1 strong{
+    top: 0px;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 44%;
+    z-index: 11111;
+    background: white;
+    color: rgb(7, 7, 7);
+    text-transform: lowercase;
+}
+
+.orBlock{
+   border-bottom: 1px solid #ccc;
+   padding: 10px;
+   width: 80%;
+   margin: 12px auto;
+   position: relative;
+}
+.orBlock strong{
+    top: 0px;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 44%;
+    z-index: 11111;
+    background: white;
+    color: #999;
+    text-transform: lowercase;
+}
+
+.signEmail {
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 26px;
+}
+
+.formLabel {
+ display: flex;
+ justify-content: flex-start;
+ margin-top: 27px;
+ font-weight: bold;
+ font-size: 14px;
+}
+
+.formInput {
+ width: 100%;
+ margin-top: 10px;
+ height: 50px;
+ padding: 14px;
+ font-size: 16px;
+}
+.inBlock {
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ margin-top: 10px;
+}
+
+.formRadioBlock {
+ display: flex;
+ justify-content: flex-start;
+ margin-top: 20px;
+ 
+}
+.formRadio{
+   padding: 24px 0;
+}
+
+
+.content{
+    margin-top: 10px;
+}
+
+.checkbox1{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+     letter-spacing: 1px;
+     margin-left: 10px;
+}
+.checkbox2{
+    margin-top: 30px;
+    font-size: 15px;
+     font-weight: bolder;
+     letter-spacing: 1px;
+}
+.dateBlock{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    margin-top: 10px;
+    
+}
+
+.dateBlock input:nth-child(1){
+    flex-basis: 30%;
+}
+.dateBlock input:nth-child(2){
+    flex-basis: 17%;
+}
+.dateBlock input:nth-child(3){
+    flex-basis:20%;
+}
+.formLabel{
+ /* display: flex;
+ justify-content: flex-start; */
+ margin-top: 27px;
+ margin-bottom: 10px;
+ font-weight: bold;
+ font-size: 14px;
+ /* left: 30px; */
+}
+.formInput{
+    width: 100%;
+    padding-left: 0px;
+}
+.formInput1{   
+  width: 100%;
+  height: 40px;
+    padding-left: 20px;
+    /* margin-left: -132px; */
+}
+.line1{
+    border-bottom: 1px solid rgba(10, 10, 10, 0.205);
+    margin-top: 10px;
+}
+.copyWriteText{
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+.btn-group{
+    text-align: center;
+}
+
+.btn-group button{
+    background: #1ed760;
+    padding: 20px 56px;
+    border-radius: 500px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.form-group1{
+    font-weight: bolder;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    padding-left: 261px;
+    width:50%;
+    height: 70px;
+    color: black;
+}
+/* music css */
